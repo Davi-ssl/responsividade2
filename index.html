@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+</head>
+<body onresize="resizeMenu()">
+
+    <header>
+        <h1>Meu Site</h1>
+        <span class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+
+        <nav id="menu">
+            <ul>
+                <a href="#">
+                    <li>OPÇÃO 1</li>
+                </a>
+                <a href="#">
+                    <li>OPÇÃO 2</li>
+                </a>
+                <a href="#">
+                    <li>OPÇÃO 3</li>
+                </a>
+                <a href="#">
+                    <li>OPÇÃO 4</li>
+                </a>
+                <a href="#">
+                    <li>OPÇÃO 5</li>
+                </a>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Testando Media Queries</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius doloremque odit velit magnam quaerat deleniti eveniet, unde minima incidunt sint enim consequatur rem nulla ipsa, neque consequuntur eaque harum dolorem! Eos temporibus quos praesentium aliquam illum, ipsa accusantium rem aut earum, dolore, facilis impedit architecto excepturi quidem vitae magni itaque?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis aspernatur aperiam voluptas eos? Qui nisi officiis, dicta alias aperiam, et debitis adipisci architecto deleniti illo nemo neque quaerat laborum, explicabo inventore maiores ab dolorum tenetur! Quasi eaque ab quo ad impedit modi ratione, inventore recusandae deleniti. Tempore illo natus eius?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam inventore earum nihil numquam molestiae quo repellendus facere ullam dolorem enim qui, incidunt deserunt quos reiciendis molestias porro, ipsa, cum sed. Iusto modi expedita voluptas reiciendis iure sunt optio quisquam dicta distinctio! Exercitationem sequi eum, tempora autem libero voluptate. Soluta!</p>
+                <br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, ipsam pariatur deleniti deserunt eum inventore! Tempore, neque voluptatem praesentium possimus iusto a explicabo modi? Vitae quod, quae accusamus deleniti eius dolor animi dolorem, culpa iusto atque repudiandae tempore placeat fuga dicta, officiis maxime doloremque voluptatum. Explicabo dolorum ut dicta minus.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <script>
+        function clickMenu() {
+            if (menu.style.display === 'none') {
+                menu.style.display = 'block'
+            }
+
+            else {
+                menu.style.display = 'none'
+            }
+        }
+
+            function resizeMenu() {
+            if (window.innerWidth >= 768) {
+                menu.style.display = 'block'
+            }
+
+            else {
+                menu.style.display = 'none'
+            }
+        }
+
+     
+
+
+    </script>
+    
+
+    
+</body>
+</html>

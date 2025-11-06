@@ -1,0 +1,35 @@
+
+@media screen and (min-width: 768px) {
+
+    .material-symbols-outlined {
+        display: none;
+    }
+
+    header {
+        width: 80vw;
+    }
+
+    nav {
+        display:  block;
+    }
+
+    a {
+        display: inline-block;
+        font-size: 16px;
+        padding: 5px;
+        background-color: transparent;
+        border: none;
+        margin-right: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: 0px 1px 1px #3c7e88;
+        margin-top: 30px;
+    }
+
+    a:hover {
+        background-color: transparent;
+        color: #d7faff;
+    }
+
+
+    
+}
